@@ -1,0 +1,14 @@
+
+.expenseDate{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: blue;
+    border: 2 px solid white;
+    margin: 1rem 0px;
+    border-radius: 12px;
+    padding: 0.5rem;
+}

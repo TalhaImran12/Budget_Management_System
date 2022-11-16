@@ -1,0 +1,60 @@
+
+
+.ExpenseForm_Controls{
+    display: flex;
+    justify-content: space-between;
+
+}
+.newExpenseFormActions{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.4rem;
+    margin-top: 1rem;
+}
+
+.ExpenseForm_Control {
+    margin-top: 0.4rem;
+}
+
+.ExpenseForm_Control input{
+    padding: 0.3rem;    
+}
+
+.ExpenseForm_Control.invalid label{
+    color: red;
+}
+
+.ExpenseForm_Control.invalid input{
+    border-color: red;
+}
+
+.newExpenseFormActions button{
+    font: 800;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 12px;
+    border-color: blueviolet;
+    border: 2px solid rgb(106, 46, 163);
+    margin: 0.5rem;
+    padding: 0.4rem;   
+    cursor: pointer;   
+}
+
+.newExpenseFormActions button:hover,
+.newExpenseFormActions button:active{
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.newExpenseFormActions button.alternative{
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.newExpenseFormActions button.alternative:hover,
+.newExpenseFormActions button.alternative:active{
+    background-color: #ddb3f8;
+}
+

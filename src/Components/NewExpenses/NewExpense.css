@@ -1,0 +1,15 @@
+
+.new_Expense{
+    background-color: #b365e0;
+    width: 40rem;
+    max-width: 95%;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: start;
+    font-weight: bold;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    
+}
+

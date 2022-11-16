@@ -1,0 +1,9 @@
+
+
+.expenses{
+    background-color: rgb(31, 31, 31);
+    width: 50rem;
+    height: auto;
+    max-width: 95%;
+    align-items: center;
+}
